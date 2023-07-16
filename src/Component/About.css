@@ -1,0 +1,83 @@
+.About-sec {
+    background-color: #72508887;
+}
+.text-center {
+    color: #38173A;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.parent-bx {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0, 30px;
+    gap: 20px;
+
+}
+
+.parent-bx .text-bx {
+    text-align: center;
+    color: #38173A;
+}
+
+.text-bx h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.parent-bx .Content p {
+    color: white;
+    padding: 10px;
+}
+.parent-bx .Card {
+    position: relative;
+    max-width: 300px;
+    height: 380px;
+    background: linear-gradient(45deg, transparent, transparent 40%, #38173A);
+    margin: 30px 10px;
+    padding: 20px 15px;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s ease-in-out !important;
+}
+.Card:before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: #0000;
+    z-index: 1;
+}
+.Card:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(45deg, transparent, transparent 40%, #653a68);
+    z-index: 1;
+    filter: blur(30px);
+}
+.parent-bx .Card:hover p {
+    box-shadow: 0 5px 20px #38173A;
+ 
+    height: 350px;
+    transition: 0.5s ease-in-out
+}
+
+
+
+@media (max-width: 992px) {
+.col-lg-4 {
+    flex: block;
+    width: auto;
+}
+.Card {
+    max-width: 500px;
+    height: 380px;
+}
+
+}

@@ -1,0 +1,26 @@
+
+.portfolio {
+    background: linear-gradient(217deg, rgba(100, 21, 131, 0.8), rgba(206, 171, 236, 0) 70.71%),linear-gradient(127deg, rgba(95, 52, 111, 0.8), rgba(217, 190, 241, 0) 70.71%),
+    linear-gradient(336deg, rgba(128, 72, 174, 0.8), rgba(219, 150, 253, 0) 70.71%);
+    padding-bottom:40px;
+}
+.card .clr-sec{
+    background: linear-gradient(217deg, rgba(100, 21, 131, 0.8), rgba(206, 171, 236, 0) 70.71%)
+}
+.card .clr-sec h4{
+    color: #38173A;
+    font-weight: 700;
+}
+.card-text{
+    color: #38173A;
+}
+
+.btn-success{
+    background-color: #38173A;
+    border: white;
+
+}
+.btn-success:hover {
+    background-color:white;
+    color: #38173A;
+}

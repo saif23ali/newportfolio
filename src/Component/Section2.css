@@ -1,0 +1,35 @@
+.services {
+    background: rgb(243, 243, 243);
+    padding-block: 40px;
+  
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+    border: 1px solid #6e566f;
+}
+
+.servicesText.card h4 {
+    color: #38173A;
+}
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+
+}
+
+.card:hover .servicesIcon {
+    color: #38173A;
+
+}
+
+.servicesText:hover {
+    border: 2px solid #38173A;
+}
